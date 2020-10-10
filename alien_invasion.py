@@ -43,7 +43,7 @@ def run_game():
             #删除消失的子弹
             gf.update_bullets(ai_setting,screen,ship,aliens,bullets,sb,stats)
             # 更新外星人的位置
-            gf.update_aliens(ai_setting,screen,stats,aliens,ship,bullets)
+            gf.update_aliens(ai_setting,screen,stats,aliens,ship,bullets,sb)
         #绘制屏幕的显示
         gf.update_screen(ai_setting,screen,ship,aliens,bullets,play_button,stats,sb)
 
